@@ -300,8 +300,5 @@ li.meeting {
 
 div.fixed {
   position: fixed;
-  top: 200px;
-  right: 200px;
-  width: 1000px;
   border: 10px solid gray;
 }
