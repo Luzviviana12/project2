@@ -301,3 +301,12 @@ li.meeting {
 .container {
   width: 70%; 
 }
+
+/* Making a fixed navigation*/
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  border: 0;
+}
