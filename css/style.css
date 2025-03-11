@@ -1,5 +1,5 @@
 body{
-	background-color: ##839ccc;
+	background-color: #839ccc;
 }
 
 #page-wrapper {
@@ -73,7 +73,7 @@ h5, h6 {
   font-family: "Alumni Sans Pinstripe", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #839ccc 
+  color: #cdd7e5; 
 }
 
 
@@ -87,7 +87,7 @@ h1, h2 {
 li {
 	front-family: monospace;
 	font-weight: 300
-	color: #839ccc;
+	color: #cdd7e5;
 }
 
 p {
