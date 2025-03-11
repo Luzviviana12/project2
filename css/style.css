@@ -291,8 +291,8 @@ li.meeting {
 }
 
 .box {
-	width: 50%;
-	float: left;
+	width: 70%;
+	float: center;
 	padding: 10px;
 	box-sizing: border-box;
 }
