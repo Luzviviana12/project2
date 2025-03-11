@@ -1,9 +1,5 @@
 body{
 	background-color: #839ccc;
-	.fluid-column {width: 300px; float: left}
-	.fluid-column {float:left}
-	.fix-column {width: 300px; float: left}
-	.fix-column {float:left}
 }
 
 main {
