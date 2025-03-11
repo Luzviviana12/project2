@@ -195,3 +195,22 @@ s.smooth:hover, a.smooth:focus {
 	animation-iteration-count: infinite;
 	animation-direction; alternate;
 }
+
+img1, img2, img3 {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+img1, img2, img3{
+  display: block;
+  transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+}
+
+img1, img2, img3 {
+  transform: scale(1.1) rotate(5deg);
+  filter: brightness(1.2) contrast(1.1);
+}
