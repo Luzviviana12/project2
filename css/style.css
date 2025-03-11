@@ -56,14 +56,14 @@ nav ul {
   clear: both;
 }
 
-h2, h3, h4, h5, h6, h7, {
+h3 {
   font-family: "Tulpen One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #cdd7e5;
 }
 
-h1 {
+
+h1, h2 {
   font-family: "Alfa Slab One", serif;
   font-weight: 400;
   font-style: normal;
