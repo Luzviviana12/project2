@@ -55,3 +55,15 @@ nav ul {
   height: 80px;
   clear: both;
 }
+
+h3, h4, h5, h6, h7, li {
+  font-family: "Tulpen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2 {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
