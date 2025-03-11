@@ -227,5 +227,58 @@ img1, img2, img3 {
 	#featured li {
 		width: 92%;
 	}
+	.nav a {
+		padding: 0.6315789474em;
+	}
 }
 
+@media screen and (min-width: 58.125em) {
+	html{
+		padding: 0;
+	}
+	header,
+	footer,
+	.primary,
+	#instructor,
+	#links {
+		padding-rgiht: 20%;
+		padding-left: 20%;
+	}
+.tagline,
+,fineprint {
+	width: 50%;
+}
+
+nav {
+	width: 60%;
+	left: 30%;
+}
+
+.preview {
+	margin-right: -16.6666667%;
+	padding-right: 16.6666667%;
+	margin-left: -50%;
+	margin-left: 50%;
+
+}
+
+li.meeting {
+	float: left;
+	width: 45%
+	padding-right: 5%
+	padding-bottom: 1.2631578947em;
+}
+
+.assigned {
+	clear: both;
+}
+
+.link-group {
+	left: 30%;
+	width: 30%;
+}
+
+#essential-reference {
+	width: 35%;
+}
+}
