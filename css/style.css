@@ -296,17 +296,8 @@ li.meeting {
 	box-sizing: border-box;
 }
 
-/* Fixed page layout */
-
-Your personal and company data are protected in this chat
-
-Creating a fixed page layout in CSS involves setting a fixed width for the main container and centering it on the page. Here’s a simple example to get you started:
-
 /* CSS for a fixed page layout */
-div.fixed {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 700px;
-  border: 3px solid #gray;
+
+.container {
+  width: 70%; 
 }
