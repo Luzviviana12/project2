@@ -181,3 +181,17 @@ s.smooth:hover, a.smooth:focus {
 	80% (background-color: blue;)
 	100% (background-color: purple;)
 }
+
+#magic {
+	width: 200px;
+	height: 200px;
+	-webkit-animation-name:colors;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timeing-function: linear;
+	-webkit-animation-iteration-count: infinate;
+	-webkit-animation-direction: alternate;
+	animation-name: colors; 
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction; alternate;
+}
