@@ -282,3 +282,17 @@ li.meeting {
 	width: 35%;
 }
 }
+
+
+
+.rectangle {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.box {
+	width: 50%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
