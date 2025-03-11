@@ -1,5 +1,7 @@
 body{
 	background-color: #839ccc;
+	.fluid-column {width: 300px; float: left}
+	.fluid-column {float:left}
 }
 
 main {
