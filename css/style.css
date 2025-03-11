@@ -142,3 +142,42 @@ a:active {
 	top: 3px;
 	box-shadow:  0 1px 2px rgba (0,0,0,.5);
 }
+
+a.smooth {
+	display: block;
+	text-decorations: none;
+	text-align: center;
+	padding: 1em 2em;
+	margin: 0 0 50px 0;
+	width: 10em;
+	border-radius: 1.5em;
+	color: #003f5c;
+	background-color: #ffadad;
+	
+	transition-property: background-color, width, boarder-radius;
+	transition-duration: 1s, 3s, 2s;
+}
+
+s.smooth:hover, a.smooth:focus {
+	background-color: blue;
+	width: 15em;
+	border-radius: 0;
+}
+
+@-webkit-keyframes colors{
+	0% (background-color: red;)
+	20% (background-color: orange;)
+	40% (background-color: yellow;)
+	60% (background-color: green;)
+	80% (background-color: blue;)
+	100% (background-color: purple;)
+} 
+
+@keyframe color {
+	0% (background-color: red;)
+	20% (background-color: orange;)
+	40% (background-color: yellow;)
+	60% (background-color: green;)
+	80% (background-color: blue;)
+	100% (background-color: purple;)
+}
