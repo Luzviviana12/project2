@@ -217,13 +217,13 @@ img1, img2, img3 {
 
 /* Fluid page */
 
-@resume screen and (max-width: 768px) {
+@aboutme screen and (max-width: 768px) {
 	#featured li {
 		width: 300px;
 	}
 }
 
-@resume screen and (max-width: 480px) {
+@aboutme screen and (max-width: 480px) {
 	#featured li {
 		width: 92%;
 	}
