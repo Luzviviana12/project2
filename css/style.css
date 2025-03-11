@@ -96,3 +96,11 @@ p {
 	font-weight: 200;
 	color: #cdd7e5;  
 }
+
+address {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #cdd7e5;  
+
+}
