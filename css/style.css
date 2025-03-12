@@ -127,9 +127,8 @@ a {
 	border: 2px solid;
 	border-radius: 6px;
 	text-shadow: #666 .1em .1em .1em;
-	box-shadow: 0 5px, 3px;
 	
-	transition: background-color 2.2s, border-color 0.2s, top .2s, box-shadow 0.2s;
+	transition: background-color 2.2s, boarder-color 0.2s, top .2s, box-shadow 0.2s;
 }
 
 a:hover, a:focus {
@@ -139,7 +138,7 @@ a:hover, a:focus {
 
 a:active {
 	top: 3px;
-	box-shadow: 0 1px 2px;
+	box-shadow: 0 1px 2px (0,0,0,.5);
 }
 
 a.smooth {
@@ -172,7 +171,14 @@ s.smooth:hover, a.smooth:focus {
 	100% (background-color: purple;)
 } 
 
-
+@keyframe color {
+	0% (background-color: red;)
+	20% (background-color: orange;)
+	40% (background-color: yellow;)
+	60% (background-color: green;)
+	80% (background-color: blue;)
+	100% (background-color: purple;)
+}
 
 #magic {
 	width: 200px;
@@ -181,19 +187,11 @@ s.smooth:hover, a.smooth:focus {
 	-webkit-animation-duration: 5s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinate;
-	-webkit-animation-direction: alternate;
 	animation-name: colors; 
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
-	animation-direction; alternate;
 }
 
-
-
-img1, img2, img3 {
-  transform: scale(1.1) rotate(5deg);
-  filter: brightness(1.2) contrast(1.1);
-}
 
 /* Fluid page */
 
