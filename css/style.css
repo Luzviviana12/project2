@@ -124,13 +124,12 @@ a {
 	text-align: center;
 	color: #d7f9f8;
 	background-color: #d6e6ff;
-	border: 2px solid rgb;
+	border: 2px solid;
 	border-radius: 6px;
 	text-shadow: #666 .1em .1em .1em;
-	box-shadow: 0 5px, 3px, rgba (0,0,0,.5);
-	position: relative;
+	box-shadow: 0 5px, 3px;
 	
-	transition: background-color 2.2s, boarder-color 0.2s, top .2s, box-shadow 0.2s;
+	transition: background-color 2.2s, border-color 0.2s, top .2s, box-shadow 0.2s;
 }
 
 a:hover, a:focus {
@@ -140,7 +139,7 @@ a:hover, a:focus {
 
 a:active {
 	top: 3px;
-	box-shadow: 0 1px 2px (0,0,0,.5);
+	box-shadow: 0 1px 2px;
 }
 
 a.smooth {
@@ -173,14 +172,7 @@ s.smooth:hover, a.smooth:focus {
 	100% (background-color: purple;)
 } 
 
-@keyframe color {
-	0% (background-color: red;)
-	20% (background-color: orange;)
-	40% (background-color: yellow;)
-	60% (background-color: green;)
-	80% (background-color: blue;)
-	100% (background-color: purple;)
-}
+
 
 #magic {
 	width: 200px;
@@ -196,19 +188,7 @@ s.smooth:hover, a.smooth:focus {
 	animation-direction; alternate;
 }
 
-img1, img2, img3 {
-  display: inline-block;
-  overflow: hidden;
-  border-radius: 12px;
-}
 
-img1, img2, img3{
-  display: block;
-  transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
-  width: 100%;
-  max-width: 400px;
-  border-radius: 12px;
-}
 
 img1, img2, img3 {
   transform: scale(1.1) rotate(5deg);
