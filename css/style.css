@@ -48,7 +48,7 @@ nav ul {
 }
 
 #nav ul li a:hover {
-  background-color: ##5a6c81;
+  background-color: #5a6c81;
   color: #92a0b2;
 }
 
@@ -61,8 +61,8 @@ nav ul {
 }
 
 #footer {
-  background-color: ##5a6c81;
-  height: 80px;
+  background-color: #5a6c81;
+  height: 100px;
   clear: both;
 }
 
@@ -73,7 +73,7 @@ h3 {
   color: #cdd7e5; 
 }
 
-h4, {
+h4 {
   font-family: "Zain", sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -96,8 +96,8 @@ h1, h2 {
 }
 
 li {
-	front-family: monospace;
-	font-weight: 300
+	font-family: monospace;
+	font-weight: 300;
 	color: #cdd7e5;
 }
 
@@ -116,7 +116,7 @@ address {
 }
 
 a {
-	diaplay: block;
+	display: block;
 	width: 6em;
 	margin: 0 5px;
 	padding: .5em 1 em;
