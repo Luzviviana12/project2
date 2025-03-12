@@ -119,13 +119,13 @@ a {
 	display: block;
 	width: 6em;
 	margin: 0 5px;
-	padding: .5em 1 em;
+	padding: .5em 1em;
 	text-decoration: none;
-	text=align: center;
+	text-align: center;
 	color: #d7f9f8;
-	backgorund-color: #d6e6ff;
-	boarder: 2px solid rgb (175, 175, 175);
-	boarder-radius: 6px;
+	background-color: #d6e6ff;
+	border: 2px solid rgb;
+	border-radius: 6px;
 	text-shadow: #666 .1em .1em .1em;
 	box-shadow: 0 5px, 3px, rgba (0,0,0,.5);
 	position: relative;
@@ -134,18 +134,18 @@ a {
 }
 
 a:hover, a:focus {
-	backgrund-color: #fbe0e0;
-	boarder-color: #e5d4ef;
+	background-color: #fbe0e0;
+	border-color: #e5d4ef;
 }
 
 a:active {
 	top: 3px;
-	box-shadow:  0 1px 2px rgba (0,0,0,.5);
+	box-shadow: 0 1px 2px (0,0,0,.5);
 }
 
 a.smooth {
 	display: block;
-	text-decorations: none;
+	text-decoration: none;
 	text-align: center;
 	padding: 1em 2em;
 	margin: 0 0 50px 0;
@@ -187,7 +187,7 @@ s.smooth:hover, a.smooth:focus {
 	height: 200px;
 	-webkit-animation-name:colors;
 	-webkit-animation-duration: 5s;
-	-webkit-animation-timeing-function: linear;
+	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinate;
 	-webkit-animation-direction: alternate;
 	animation-name: colors; 
@@ -241,13 +241,9 @@ img1, img2, img3 {
 	.primary,
 	#instructor,
 	#links {
-		padding-rgiht: 20%;
+		padding-right: 20%;
 		padding-left: 20%;
 	}
-.tagline,
-,fineprint {
-	width: 50%;
-}
 
 nav {
 	width: 60%;
@@ -264,8 +260,8 @@ nav {
 
 li.meeting {
 	float: left;
-	width: 45%
-	padding-right: 5%
+	width: 45%;
+	padding-right: 5%;
 	padding-bottom: 1.2631578947em;
 }
 
@@ -291,7 +287,7 @@ li.meeting {
 
 .box {
 	width: 80%;
-	float: center;
+	float: left;
 	padding: 10px;
 	box-sizing: border-box;
 }
