@@ -34,11 +34,13 @@ nav {
 
 nav ul {
   list-style-type: none;
+  background-color: white;
   margin: 0;
   padding: 0;
   float: left;
   position: relative;
   left:50%;
+  overflow: hidden;
 }
 
 #nav ul li {
