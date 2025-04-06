@@ -25,40 +25,29 @@ asides {
 	background-color: #d7f9f8;
 }
 
-nav {
-	width: 100%;
-	height: 100px;
-	background-color: #5a6c81;
-	float: left;
-}
 
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  float: left;
-  position: relative;
-  left:50%;
+  padding: 0px;
+  margin: 0px;
   overflow: hidden;
 }
 
-#nav ul li {
-  float: left;
-  position: relative;
-  right: 50%;
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
 }
 
-#nav ul li a:hover {
+nav a:hover {
   background-color: #5a6c81;
   color: #92a0b2;
 }
 
-
-#nav ul li a {
-  padding: 10px 25px;
-  display: block;
-  text-decoration: none;
-  color: #92a0b2;
+nav li {
+	float: left;
 }
 
 #footer {
