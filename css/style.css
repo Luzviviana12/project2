@@ -30,7 +30,6 @@ nav {
 	height: 100px;
 	background-color: #5a6c81;
 	float: middle;
-	overflow: hidden;
 }
 
 nav ul {
@@ -46,6 +45,7 @@ nav ul {
   float: middle;
   position: relative;
   right: 50%;
+  overflow: hidden;
 }
 
 #nav ul li a:hover {
